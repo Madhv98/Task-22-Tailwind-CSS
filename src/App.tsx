@@ -1,7 +1,15 @@
-export default function App() {
+import Header from "./components/header";
+import Footer from "./components/footer";
+import RegistrationForm from "./components/bodyForm";
+
+function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
+    <>
+      <Header />
+      <RegistrationForm />
+      <Footer />
+    </>
+  );
 }
+
+export default App;
